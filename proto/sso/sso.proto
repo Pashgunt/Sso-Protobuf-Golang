@@ -29,3 +29,9 @@ message LoginResponse{
   string appUuid = 2;
   string jwtToken = 3;
 }
+
+message ForgotPasswordResponse{
+  string uuid = 1;
+  string appUuid = 2;
+  string jwtToken = 3;
+}
