@@ -7,6 +7,7 @@ option go_package = "pant.sso.v1;sso";
 service Auth{
   rpc Register(RegisterRequest) returns(RegisterResponse) {};
   rpc Login(LoginRequest) returns(LoginResponse) {};
+  rpc ForgotPassword(ForgotPasswordRequest) returns(ForgotPasswordResponse) {};
 }
 
 message RegisterRequest{
